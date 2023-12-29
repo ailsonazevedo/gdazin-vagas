@@ -3,7 +3,7 @@ import os
 import requests
 
 from src.webhooks.send_jobs import SendJobs
-from services.apibr import JobService
+from src.services.apibr import JobService
 
 from dotenv import load_dotenv
 
